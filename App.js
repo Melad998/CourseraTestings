@@ -1,6 +1,4 @@
 import React , {useState}from "react";
-import Reaction from "react-dom";
-
 
 const App = () => {
   const [result,setResult] = useState("");
