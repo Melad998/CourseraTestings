@@ -3,7 +3,7 @@ function DessertsList(props) {
   return (
       <ul>
       {
-       desserts.map(desser => {return(
+       props.desserts.map(desser => {return(
            <li>{desser.name} - {desser.cal} cal</li>
 )})
       }
