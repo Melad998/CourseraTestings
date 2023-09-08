@@ -15,7 +15,7 @@ const App = () => {
       setResult(result.slice(0, -1))
 }
 
-  const equal = (){
+  const equal = () => {
       try{
           setResult(evel(result).toString):
       }
